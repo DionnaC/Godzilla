@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<style>
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+input[type="button"] {
+  width: 120px;
+  margin-left: 35px;
+  display: block;
+}
+</style>
+
+<script src="includes.js"></script>
+  <script>
+    window.onload = includeHTML;
+  </script>
+  <meta charset="utf-8">
+  <title>Tables & Lists</title>
+  <link rel="stylesheet" href="css/style.css"> 
+   <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div w3-include-html="nav.html"></div>
+<nav class="primary-menu">
+     <ul>
+		<li><a href="Godzilla.html">Godzilla</a></li>
+		<li><a href="Mothra.html">Mothra</a></li>
+		<li><a href="Ghidorah.html">King Ghidorah</a></li>
+		<li><a href="Rodan.html">Rodan</a></li>
+        <li><a href="index.html">Table</a></li>
+        <li><a href="list.html">List</a></li>
+        <li><a href="intrapage.html">Intra-page</a></li>
+		<li><a href="page.html">Info Page</a></li>
+  </ul> </nav>
+    <h1 align="left">Kaiju Table </h1>
+<table>
+<caption>Height and Weight Chart</caption>
+  <thead>
+<table class="center";
+		style="background-color:#C0C0C0">
+    <tr>
+      <th>Kaiju</th>
+      <th>Height</th>
+      <th>Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Godzilla</td>
+      <td>394 ft</td>
+      <td>164,000 tons</td>
+    </tr>
+    <tr>
+      <td>Mothra</td>
+      <td>52 ft</td>
+      <td>25,000 tons</td>
+    </tr>
+    <tr>
+      <td>King Ghidorah</td>
+      <td>521 ft</td>
+      <td>141,056 tons</td>
+    </tr>
+	<tr>
+      <td>Rodan</td>
+      <td>154 ft</td>
+      <td>39,043 tons</td>
+	 </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3"><a href="url">https://characterprofile.fandom.com/wiki/Godzilla_(MonsterVerse)</a><br>
+					<a href="url">https://the-legendary-godzilla.fandom.com/wiki/Mothra</a><br>
+					<a href="url">https://wikizilla.org/wiki/King_Ghidorah_(MonsterVerse)</a><br>
+					<a href="url">https://wikizilla.org/wiki/Rodan_(Millennium)</a>
+	  </td>
+    </tr>
+  </tfoot>
+</table>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PgHPatDl-zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>
+Please enter 
+<form method="post" action="../../resources/reflect.php">
+<label for="fname">Favorite Kaiju:</label><br>
+  <input type="text" id="fname" name="fname" value="Ex. Godzilla"><br>
+  <label for="lname">Least Favorite Kaiju:</label><br>
+  <input type="text" id="lname" name="lname" value="Ex. King Ghidorah"><br><br>
+  <input type="submit" value="Submit">
+</form> 

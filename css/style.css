@@ -1,0 +1,38 @@
+body {
+		background-color: #FFB6C1;
+		text-align: left;
+		font-family: Calibri, "Courier New", monospace;
+		font-size: 20px;
+	}
+caption {
+  display: table-caption;
+  text-align: left;
+}
+table, th, td {
+  border: 5px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  width:1000px
+}
+table.left {
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style-type: square;
+}
+ul ul {
+	list-style-type: circle;
+	color: green;
+	font-weight: bold;
+}
+.intrapage-menu a {
+  text-decoration: none;
+  font-family: Calibri, "Courier New", monospace;
+  color: #000000;
+  font-weight: bold;
+  background-color: #FF9966;
+}
+.intrapage-menu li {
+  display: inline;
+}
